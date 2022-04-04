@@ -4,14 +4,18 @@ import { Navbar } from "../components/Navbar";
 import { Presentation } from "../components/Presentation";
 import { About } from "../components/About";
 import { Plans } from "../components/Plans";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export const Home = () => {
   return (
-    <div>
-      <Navbar />
-      <Presentation />
-      <About />
-      <Plans />
-    </div>
+    <>
+      <Navbar id="navbar" />
+      <Presentation id="presentation" />
+      <About id="about" />
+      <Plans id="plans" />
+      <Contact />
+      <Footer />
+    </>
   );
 };

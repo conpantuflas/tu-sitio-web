@@ -1,0 +1,82 @@
+.container{
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1rem ;
+  border-radius: 0 2rem;
+}
+
+.titleContainer{
+  background-color: rgb(62, 123, 255);
+  border-radius: 0 2rem;
+  padding-top: 1rem;
+}
+
+.title{
+  margin: 1rem 0 0 0;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.subtitle{
+  font-weight: 700;
+}
+
+.description {
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.priceSpan{
+  font-size: 1.5rem;
+}
+
+.price{
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.itemsContainer{
+  list-style: none;
+}
+
+.item{
+  display: grid;
+  grid-template-columns: 1rem 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  text-align: start;
+}
+
+.itemImage{
+  width: 1rem;
+}
+
+.button {
+  background-color: #ffd54ade;
+  border: none;
+  border-radius: 1rem;
+  color: #ffffff;
+  width: 40%;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  -webkit-transition: width 1s, background 0.5s;
+  -moz-transition: width 1s, background 0.5s;
+  -o-transition: width 1s, background 0.5s;
+  transition: width 1s, background 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(62, 123, 255);
+  color: #ffffff;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}

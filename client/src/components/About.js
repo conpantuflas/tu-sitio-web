@@ -1,10 +1,11 @@
 import React from "react";
+import style from "../styles/About.module.css";
 
 export const About = () => {
   return (
-    <div>
-      <h2>¿Quienes Somos?</h2>
-      <p>
+    <div className={style.container} id="about">
+      <h2 className={style.title}>¿Quienes Somos?</h2>
+      <p className={style.description}>
         Somos un equipo enfocado 100% en el desarrollo de sitios web, tenemos un
         muy bien preparado equipo, desarrolladores profesionales full stack
         certificados, con los conocimientos necesarios para desarrollar sitios

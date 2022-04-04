@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: 90vh;
   background-color: rgb(62, 123, 255);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,7 +19,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
 }
 
 .image_container {
@@ -27,21 +27,20 @@
 }
 
 .button {
+  text-decoration: none;
   background-color: #ffd54ade;
   border: none;
   border-radius: 5rem;
   color: #ffffff;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   font-weight: 600;
   font-size: 1.2rem;
   width: 15rem;
-  margin-left: 10rem;
-  margin: 4rem 0 4rem 10rem;
-  -webkit-transition: width 1s, background 1s;
-  -moz-transition: width 1s, background 1s;
-  -o-transition: width 1s, background 1s;
-  transition: width 1s, background 1s;
-  cursor: pointer;
+  margin: 6rem 0 4rem 10rem;
+  -webkit-transition: width 1s, background 0.5s;
+  -moz-transition: width 1s, background 0.5s;
+  -o-transition: width 1s, background 0.5s;
+  transition: width 1s, background 0.5s;
 }
 
 .button:hover {

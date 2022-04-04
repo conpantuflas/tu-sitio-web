@@ -1,36 +1,35 @@
 import React from "react";
 import style from "../styles/Navbar.module.css";
-import { Link } from "@reach/router";
 
 export const Navbar = () => {
   return (
     <div className={style.container}>
-      <h2 className={style.logo}>Tu Sitio Web</h2>
+      <h2 className={style.logo}>My Sitio Web</h2>
       <ul className={style.list}>
         <li>
-          <Link className={style.item} to="/contact">
+          <a className={style.item} href="#init">
             Inicio
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.item} to="/contact">
+          <a className={style.item} href="#about">
             Nosotros
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.item} to="/contact">
+          <a className={style.item} href="#plans">
             Planes
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.item} to="/contact">
+          <a className={style.item} href="#contact">
             Clientes
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className={style.item} to="/contact">
+          <a className={style.item} href="#contact">
             Contactanos
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

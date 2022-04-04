@@ -1,0 +1,51 @@
+.container{
+  background-color: #000000;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  color: #ffffff;
+}
+
+.firstList{
+  width: 50%;
+  margin: 1rem auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.firstListItem{
+
+}
+
+.secondList{
+  list-style: none;
+  margin: 1rem auto 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.secondListItem{
+  cursor: pointer;
+}
+
+.line{
+  border-right: 1px solid #ffffff;
+}
+
+.facebook{
+  width: 1.4rem;
+  height: 1.2rem;
+  padding: 0.2rem;
+  border-radius: 1px;
+  background-color: #ffffff;
+}
+
+.instagram{
+  width: 1.4rem;
+  height: 1.2rem;
+  padding: 0.2rem;
+  border-radius: 1px;
+  background-color: #ffffff;
+}
